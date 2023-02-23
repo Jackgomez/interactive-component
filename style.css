@@ -33,3 +33,57 @@ The designs were created to the following widths:
 - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box {
+    height: 45vh;
+    width: 45vh;
+    background-color: green;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 1.5rem;
+    margin: 20vh auto;
+    padding: 2rem;
+}
+.round {
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 3rem;
+    padding: 0.1rem;
+}
+h2 {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+p {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+
+footer {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#foot {
+    
+}
+.linky {
+    color: hsl(217, 12%, 63%);
+}
+.linky:hover {
+    color: white;
+}
