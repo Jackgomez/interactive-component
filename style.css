@@ -63,7 +63,7 @@ body {
     padding: 0.05rem;
     position: relative;
 }
-svg {
+#star {
     margin: 0;
     position: absolute;
     margin: 0;
@@ -78,7 +78,6 @@ h1 {
     font-family: 'Overpass', sans-serif;
     color: white;
     font-weight: 700;
-
     margin-bottom: 0;
 }
 p {
@@ -103,7 +102,7 @@ p {
     padding: 0.05rem;
     position: relative;
     cursor: pointer;
-    /* transition: all 0.1s ease-out;  How do i fix this? Fade out with grey color*/
+    transition: background .3s ease-out; 
     
 }
 .in-round {
@@ -141,6 +140,23 @@ button:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+/* Thank You */
+#thanks {
+    margin: auto;
+}
+.center {
+    text-align: center;
+    margin: 0.6rem 0;
+}
+#result {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 19%);
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
 
 footer {
     background-color: hsl(213, 19%, 18%);
@@ -149,6 +165,7 @@ footer {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: 'Overpass', sans-serif;
 }
 
 .linky {
