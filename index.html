@@ -65,10 +65,17 @@
   </footer>
   <script>
     document.getElementById('sub').onclick = function() {
-      fun()
+      sub()
     };
-    function fun() {
+    function sub() {
       document.getElementById('box1').style.display = 'none';
+    }
+// Some work to be done here now to sort the rating numbers
+    document.getElementsByClassName('round').onclick = function() {
+      rate()
+    };
+    function rate() {
+      document.getElementsByClassName('round').style.background = 'white';
     }
   </script>
 </body>
