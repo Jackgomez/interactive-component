@@ -23,19 +23,19 @@
   to help us improve our offering!</p>
 
   <div id="rating-box">
-    <div class="round">
+    <div class="round" id="1">
       <div class="in-round">1</div>
     </div>
-    <div class="round">
+    <div class="round" id="2">
       <div class="in-round">2</div>
     </div>
-    <div class="round">
+    <div class="round" id="3">
       <div class="in-round">3</div>
     </div>
-    <div class="round">
+    <div class="round" id="4">
       <div class="in-round">4</div>
     </div>
-    <div class="round">
+    <div class="round" id="5">
       <div class="in-round">5</div>
     </div>
   </div>
@@ -60,7 +60,7 @@
   <footer class="attribution">
     <div id="foot">
      Challenge by <a class = "linky" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-     Coded by <a class = "linky" href="#">Jack Gomez</a>.
+     Coded by <a class = "linky" href="https://github.com/Jackgomez">Jack Gomez</a>.
     </div>
   </footer>
   <script>
@@ -69,14 +69,17 @@
     };
     function sub() {
       document.getElementById('box1').style.display = 'none';
-    }
+    };
+
 // Some work to be done here now to sort the rating numbers
-    document.getElementsByClassName('round').onclick = function() {
+
+    document.getElementById('1').onclick = function() {
       rate()
     };
     function rate() {
-      document.getElementsByClassName('round').style.background = 'white';
-    }
+      document.getElementById('1').style.background = 'hsl(217, 12%, 63%)';
+      document.getElementById('1').style.color = 'white';
+    };
   </script>
 </body>
 </html>
